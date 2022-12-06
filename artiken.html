@@ -2,7 +2,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="artiken-style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Artiken</title>
     </head>
     
     <body>
@@ -31,7 +33,7 @@
                 <h2><br><br> My Project <br><br></h2>
                 <p>
                     I decided to design a store front for a popular Kenyan bracelet and accessories company called 
-                    <a target = "_blank" href="https://artiken.com/">Artiken</a>.
+                    <a class = "hvr-underline-from-left" target = "_blank" href="https://artiken.com/">Artiken  <i style = "font-size: 14px; color: white" class="fa fa-external-link"></i></a>.
                     I wanted there to be a wide selection of colored bracelets and the user could sort and filter them based
                     on seasonal colors, price, and sales.
                     <br>
@@ -82,25 +84,36 @@
                 </p>
     
                <p>Implementing the filters and sorting took the majority of the time and involved using React states and
-                higher order functions.
+                higher order functions. I decided that I would only allow the user to add 1 quantity of each item as allowing more
+                than 1 quantity started to get more confusing with my current implementation.
                 <br><br>
                 Click either on the link or the image to be taken to the final version!* <br><br>
                </p>
-               <a target="_blank" href="https://vengefulcapybara505.github.io/development/">
+               <a  target="_blank" href="https://vengefulcapybara505.github.io/development/">
                 <div>
-                    <img class = "hvr-grow" src="images/website.png" alt="Screenshot of the the store website">
+                    <img class = "hvr-grow border" src="images/website.png" alt="Screenshot of the the store website">
                 </div>
                </a>
                
                <div class = "link-div">
-                <a class = "weblink hvr-grow" target="_blank" href="https://vengefulcapybara505.github.io/development/">
-                    <h3>Click Here</h3> </a>
+                <a class = "weblink" target="_blank" href="https://vengefulcapybara505.github.io/development/">
+                    <h3 class = "hvr-underline-from-left">Click Here <i style = "font-size: 16px; color: white" class="fa fa-external-link"></i></h3> </a>
                </div>
               
     
                <p class = "afterthought">
                 *this project was not responsively designed and is designed only for a laptop/desktop screen size.</p>
+
+
+                
             </div>
+            <h2><br><br><br><br> Conclusion <br><br></h2>
+            <p>It was really interesting to learn React, as I have never used a component based library like it before.
+                It definitely took some getting used to and using React state was very confusing. However, after a lot of practice,
+                I started to get the hang of it. Knowing how to use higher-order functions helped a lot with filtering and sorting the list. 
+                There was a lot of debugging but eventually I was able to create a functional
+                project. 
+            </p>
         </div>
         
     </body>
