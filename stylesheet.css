@@ -21,11 +21,20 @@ body
     padding: 5%
 }
 
+a{
+    text-decoration: none;
+}
+
 /*prevents these from expanding beyond its container and taking up a row*/
 img, picture, video, canvas, svg
 {
 	display: block;
 	max-width: 100%
+}
+
+img
+{
+    border-radius: 10px 10px 10px 0px;
 }
 
 /*makes tables look like spreadsheets and less like a spaced-out-grid*/
@@ -56,8 +65,8 @@ h1
 {
     display: flex;
     justify-content: center;
-    padding: 1%;
-    width: 49%;
+    padding: 2%;
+    
     text-align: left;
 }
 
@@ -71,10 +80,10 @@ h1
 .portfolio-list
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    padding-top: 3%;
+    
 }
 .intro
 {
